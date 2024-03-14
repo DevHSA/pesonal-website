@@ -1,38 +1,289 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto",sans-serif;
+}
+
+.heading {
+
+  font-size: xx-large;
+  font-weight: 300;
+}
+
+.headingsmall {
+
+  font-size: x-large;
+  font-weight: 300;
+  text-decoration: underline;
+}
+
+.txtlink {
+  color: green;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.txtlink:hover {
+  color: red;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #fff;
+  /* border: 1px solid black; */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* FOR THE NEWS ITEMS */
+.tablestyle {
+  width: 100%;
+  /* border: 1px solid black; */
+  padding: 4px;
+}
+
+.trow {
+  padding-bottom: 10px;
+  width: 200px;
+}
+
+.tcolone {
+  width: 12%;
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+
+.tcoltwo {
+  padding-bottom: 20px;
+}
+
+/* FOR THE PUBLICATIONS */
+.pubtablestyle {
+  width: 100%;
+  /* border: 1px solid black; */
+  padding: 4px;
+}
+
+.pubtrow {
+  padding-bottom: 10px;
+  width: 200px;
+}
+
+.pubtcolone {
+  width: 22%;
+  padding-bottom: 20px;
+}
+
+.pubtcoltwo {
+  padding-bottom: 20px;
+  vertical-align: top;
+}
+
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 18px 12px;
+  font-size: medium;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  /* background-color: #ddd; */
+  color: red;
+  font-weight: 400;
+  background-color: aliceblue;
+  transition: 0.3s;
+}
+
+.topnav span a {
+  float: right;
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 8px 12px;
+  font-size: medium;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav span a:hover {
+  /* background-color: #ddd; */
+  color: red;
+  font-weight: 400;
+  background-color: aliceblue;
+  transition: 0.3s;
+}
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+  line-height: 1.5;
+  font-family:"Roboto",sans-serif;
+  font-weight: 300;
+}
+
+/* Left and right column */
+.column.side {
+  width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+  font-size: 14px;
+  font-weight: 300;
+  padding-top: 6%;
+  padding-bottom: 2%;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create three unequal columns that floats next to each other */
+.nav {
+  float: left;
+  padding: 10px;
+}
+
+/* Left and right column */
+.nav.side {
+  width: 25%;
+}
+
+/* Middle column */
+.nav.middle {
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.navwrapper {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1px solid black;
+}
+
+.navwrapper::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.inside {
+  float: left;
+  padding: 10px;
+  /* border: 0px solid black; */
+}
+
+.inside.normal {
+  width: 100%;
+}
+
+.inside.left {
+  width: 70%;
+}
+
+.inside.right {
+  width: 30%;
+}
+
+.imagesize {
+  width: 200px;
+}
+.imagesizepub {
+  width: 135px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 575px) {
+  .column.side,
+  .column.middle {
+    width: 100vw;
+    padding-top: 15%;
+    /* border: 1px solid black; */
+  }
+  .inside.left,
+  .inside.right {
+    width: 100vw;
+    /* border: 1px solid black; */
+  }
+  .nav.middle,
+  .nav.side {
+    width: 100%;
+    
+  }
+  .imagesize {
+    width: 100%;
+  }
+
+  .topnav span a {
+    display: none;
+  }
+  .tcolone {
+    width: 10vw;
+  }
+  .tcoltwo {
+    width: 40vw;
+  }
+  .tablestyle {
+    width: 90vw;
+    /* border: 1px solid black; */
+    /* padding: 4px; */
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+/* FOR PUBLICATION RELATED STYLESHEETS */
+
+
+.pubhead{
+  font-size: 15px;
+  font-weight: 600;
 }
 
-.App-link {
-  color: #61dafb;
+.pubauth{
+
+  font-size: 13px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.publoc{
+  font-style: italic;
+}
+
+
+.footer {
+  /* border: 1px solid #000; */
+  position: fixed;
+
+  font-size: x-small;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  /* padding: 1px 0; */
+  text-align: center;
 }
