@@ -4,20 +4,19 @@
 
 body {
   margin: 0;
-  font-family: "Roboto",sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .heading {
-
   font-size: xx-large;
   font-weight: 300;
 }
 
 .headingsmall {
-
-  font-size: x-large;
-  font-weight: 300;
-  text-decoration: underline;
+  font-size: large;
+  font-weight: 600;
+  font-style: oblique;
+  color: forestgreen;
 }
 
 .txtlink {
@@ -90,7 +89,6 @@ body {
   vertical-align: top;
 }
 
-
 /* Style the topnav links */
 .topnav a {
   float: left;
@@ -137,7 +135,7 @@ body {
   float: left;
   padding: 10px;
   line-height: 1.5;
-  font-family:"Roboto",sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
 }
 
@@ -233,7 +231,6 @@ body {
   .nav.middle,
   .nav.side {
     width: 100%;
-    
   }
   .imagesize {
     width: 100%;
@@ -255,25 +252,20 @@ body {
   }
 }
 
-
 /* FOR PUBLICATION RELATED STYLESHEETS */
 
-
-.pubhead{
+.pubhead {
   font-size: 15px;
   font-weight: 600;
 }
 
-.pubauth{
-
+.pubauth {
   font-size: 13px;
-
 }
 
-.publoc{
+.publoc {
   font-style: italic;
 }
-
 
 .footer {
   /* border: 1px solid #000; */
@@ -286,4 +278,38 @@ body {
   color: #fff;
   /* padding: 1px 0; */
   text-align: center;
+}
+
+.blinktext {
+  
+  font-size: larger;
+  font-weight: 300;
+  /* color: brown; */
+}
+
+.txtlinkflash {
+  color: red;
+  font-weight: 500;
+  text-decoration: none;
+  animation: opacity 1s ease-in-out infinite;
+  opacity: 1;
+}
+@keyframes opacity {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.txtlinkflash:hover {
+  color: red;
+  font-weight: 400;
+  text-decoration: underline;
 }

@@ -103,13 +103,13 @@ const Home = () => {
                 <b>Mar 2024</b>
               </td>
               <td className="tcoltwo">
-                Won the final approval for the{" "}
+                Recieved the final approval for {" "}
                 <a
                   href="https://www.usief.org.in/Fulbright-Nehru-Doctoral-Research-Fellowships.aspx"
                   target="_blank"
                   className="txtlink"
                 >
-                  Fulbright-Nehru Doctoral Research Fellowship
+                  Fulbright Doctoral Research Fellowship
                 </a>
                 . Excited to join the{" "}
                 <a
@@ -154,15 +154,15 @@ const Home = () => {
                 <b>Nov 2023</b>
               </td>
               <td className="tcoltwo">
-                Recommended as a principal candidate to the{" "}
+                Won the principal candidacy to the{" "}
                 <a
                   href="https://www.usief.org.in/Fulbright-Nehru-Doctoral-Research-Fellowships.aspx"
                   target="_blank"
                   className="txtlink"
                 >
-                  Fulbright-Nehru Doctoral Research Fellowship
-                </a>
-                .
+                  Fulbright Doctoral Research Fellowship
+                </a>!
+                
               </td>
             </tr>
             <tr>
@@ -281,8 +281,7 @@ const Home = () => {
                   className="txtlink"
                 >
                   ComSoc student travel grant
-                </a>
-                .
+                </a>.
               </td>
             </tr>
             <tr>
@@ -314,9 +313,8 @@ const Home = () => {
                   target="_blank"
                   className="txtlink"
                 >
-                  Prime Ministers Research Fellow (PMRF){" "}
-                </a>{" "}
-                !
+                  Prime Minister's Research Fellowship (PMRF){" "}
+                </a>!
               </td>
             </tr>
             <tr>
