@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Publications from "./pages/Publications";
 import CV from "./pages/CV";
 import Blog from "./pages/Blog";
+import Lessons from "./pages/blogposts/Lessons";
 
 function App() {
   return (
@@ -58,6 +59,9 @@ function App() {
           <Route path="/publications" element={<Publications />} />
           <Route path="/CV" element={<CV />} />
           <Route path="/blog" element={<Blog />} />
+
+          <Route path="/blog/16.03.2024/lessons-from-phd-pt-1" element={<Lessons />} />
+
         </Routes>
       </div>
 

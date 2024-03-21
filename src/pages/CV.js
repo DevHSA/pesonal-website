@@ -38,6 +38,19 @@ const CV = () => {
             </li>
 
             <li>
+              Recieved the prestegious{" "}
+              <a
+                href="https://www.pmrf.in/"
+                target="_blank"
+                className="txtlink"
+              >
+                Prime Minister's Research Fellowship (PMRF) for a period of 4
+                years.{" "}
+              </a>
+              <i>(2022)</i>
+            </li>
+
+            <li>
               Recieved the top grade "Recommended with Commendation" in the
               annual PMRF Review 2023 and invited to the{" "}
               <a
@@ -49,17 +62,7 @@ const CV = () => {
               </a>
               . <i>(2023)</i>
             </li>
-            <li>
-              Recieved the prestegious{" "}
-              <a
-                href="https://www.pmrf.in/"
-                target="_blank"
-                className="txtlink"
-              >
-                Prime Minister's Research Fellowship (PMRF).{" "}
-              </a>
-              <i>(2022)</i>
-            </li>
+
             <li>
               Won the ACM SIGCOMM 2022{" "}
               <a
@@ -186,129 +189,156 @@ const CV = () => {
           <span className="headingsmall">Talks and Presentations</span>
           <ul>
             <li>
-            <a
+              <a
                 href="http://swing.iiitkottayam.ac.in/assets/pdf/Brochure_Update.pdf"
                 target="_blank"
                 className="txtlink"
-              >SERB Sponsored One Week High - End Workshop on “SDN: Software
-              Defined Networks Architectures and Applications”</a>: Conducted
-              sessions on P4 prorammable dataplanes (June 2023)
+              >
+                SERB Sponsored One Week High - End Workshop on “SDN: Software
+                Defined Networks Architectures and Applications”
+              </a>
+              : Conducted sessions on P4 prorammable dataplanes (June 2023)
             </li>
             <li>
-            Presented our work "
-                <a
-                  href="https://dl.acm.org/doi/10.1145/3600061.3600086"
-                  target="_blank"
-                  className="txtlink"
-                >
-                  In-Network Probabilistic Monitoring Primitives under the
-                  Influence of Adversarial Network Inputs
-                </a>
-                " at{" "}
-                <a
-                  href="https://conferences.sigcomm.org/events/apnet2023/"
-                  target="_blank"
-                  className="txtlink"
-                >
-                  APNET 2023
-                </a>
-                , Hong Kong SAR.{" "}(July 2023){" "}
-                <a
-                  href="https://dl.acm.org/doi/10.1145/3600061.3600086"
-                  target="_blank"
-                  className="txtlink"
-                >
-                  <b>[pdf]</b>
-                </a>{" "}
-                <a
-                  href="https://conferences.sigcomm.org/events/apnet2023/slides/apnet23/Session5/Harish_APNET_23.pdf"
-                  target="_blank"
-                  className="txtlink"
-                >
-                  <b>[slides]</b>
-                </a>{" "}
-                <a
-                  href="https://conferences.sigcomm.org/events/apnet2023/videos/session5-innet.mp4"
-                  target="_blank"
-                  className="txtlink"
-                >
-                  <b>[talk]</b>
-                </a>
+              Presented our work "
+              <a
+                href="https://dl.acm.org/doi/10.1145/3600061.3600086"
+                target="_blank"
+                className="txtlink"
+              >
+                In-Network Probabilistic Monitoring Primitives under the
+                Influence of Adversarial Network Inputs
+              </a>
+              " at{" "}
+              <a
+                href="https://conferences.sigcomm.org/events/apnet2023/"
+                target="_blank"
+                className="txtlink"
+              >
+                APNET 2023
+              </a>
+              , Hong Kong SAR. (July 2023){" "}
+              <a
+                href="https://dl.acm.org/doi/10.1145/3600061.3600086"
+                target="_blank"
+                className="txtlink"
+              >
+                <b>[pdf]</b>
+              </a>{" "}
+              <a
+                href="https://conferences.sigcomm.org/events/apnet2023/slides/apnet23/Session5/Harish_APNET_23.pdf"
+                target="_blank"
+                className="txtlink"
+              >
+                <b>[slides]</b>
+              </a>{" "}
+              <a
+                href="https://conferences.sigcomm.org/events/apnet2023/videos/session5-innet.mp4"
+                target="_blank"
+                className="txtlink"
+              >
+                <b>[talk]</b>
+              </a>
             </li>
             <li>
-            Presented our work "
-                <a
-                  href="https://ieeexplore.ieee.org/document/10154376"
-                  target="_blank"
-                  className="txtlink"
-                >
-                  Scaling IoT MUD Enforcement using Programmable Data Planes
-                </a>
-                " at{" "}
-                <a
-                  href="https://noms2023.ieee-noms.org/program/technical-sessions"
-                  target="_blank"
-                  className="txtlink"
-                >
-                  IEEE/IFIP Network Operations and Management Symposium 2023
-                  (NOMS 23)
-                </a>
-                , Miami, Florida, USA.{" "}(May 2023){" "}
-                <a
-                  href="https://ieeexplore.ieee.org/document/10154376"
-                  target="_blank"
-                  className="txtlink"
-                >
-                  <b>[paper]</b> 
-                </a>
+              Presented our work "
+              <a
+                href="https://ieeexplore.ieee.org/document/10154376"
+                target="_blank"
+                className="txtlink"
+              >
+                Scaling IoT MUD Enforcement using Programmable Data Planes
+              </a>
+              " at{" "}
+              <a
+                href="https://noms2023.ieee-noms.org/program/technical-sessions"
+                target="_blank"
+                className="txtlink"
+              >
+                IEEE/IFIP Network Operations and Management Symposium 2023 (NOMS
+                23)
+              </a>
+              , Miami, Florida, USA. (May 2023){" "}
+              <a
+                href="https://ieeexplore.ieee.org/document/10154376"
+                target="_blank"
+                className="txtlink"
+              >
+                <b>[pdf]</b>
+              </a>
             </li>
             <li>
-            Presented our work "
-                <a
-                  href="https://doi.org/10.1145/3528082.3544832"
-                  target="_blank"
-                  className="txtlink"
-                >
-                  IoT MUD Enforcement in the Edge Cloud using Programmable
-                  Switch
-                </a>
-                " at the{" "}
-                <a
-                  href="https://conferences.sigcomm.org/sigcomm/2022/workshop-ffspin.html"
-                  target="_blank"
-                  className="txtlink"
-                >
-                  FFSPIN Workshop 2023
-                </a>{" "}
-                as part of{" "}
-                <a
-                  href="https://conferences.sigcomm.org/sigcomm/2022/"
-                  target="_blank"
-                  className="txtlink"
-                >
-                  ACM SIGCOMM '22
-                </a>
-                , Amsterdam, Netherlands.{" "}(August 2022){" "}
-                <a
-                  href="https://doi.org/10.1145/3528082.3544832"
-                  target="_blank"
-                  className="txtlink"
-                >
-                  <b>[pdf]</b>
-                </a>
+              Presented our work "
+              <a
+                href="https://doi.org/10.1145/3528082.3544832"
+                target="_blank"
+                className="txtlink"
+              >
+                IoT MUD Enforcement in the Edge Cloud using Programmable Switch
+              </a>
+              " at the{" "}
+              <a
+                href="https://conferences.sigcomm.org/sigcomm/2022/workshop-ffspin.html"
+                target="_blank"
+                className="txtlink"
+              >
+                FFSPIN Workshop 2023
+              </a>{" "}
+              as part of{" "}
+              <a
+                href="https://conferences.sigcomm.org/sigcomm/2022/"
+                target="_blank"
+                className="txtlink"
+              >
+                ACM SIGCOMM '22
+              </a>
+              , Amsterdam, Netherlands. (August 2022){" "}
+              <a
+                href="https://doi.org/10.1145/3528082.3544832"
+                target="_blank"
+                className="txtlink"
+              >
+                <b>[pdf]</b>
+              </a>
             </li>
             <li>
-            Presented our work in progress "P4 Programmable Data Plane based MUD
-                Enforcement for IoT Security" at the Graduate Forum of <a
-                  href="https://perfna2022.cse.iith.ac.in/"
-                  target="_blank"
-                  className="txtlink"
-                >PerfNA Workshop
-                2022</a> at <a
-                  href="https://www.sigmetrics.org/sigmetrics2022/"
-                  target="_blank"
-                  className="txtlink"
-                >ACM SIGMETRICS 2022</a> (May 2022)
+              Presented our work in progress "P4 Programmable Data Plane based
+              MUD Enforcement for IoT Security" at the Graduate Forum of{" "}
+              <a
+                href="https://perfna2022.cse.iith.ac.in/"
+                target="_blank"
+                className="txtlink"
+              >
+                PerfNA Workshop 2022
+              </a>{" "}
+              at{" "}
+              <a
+                href="https://www.sigmetrics.org/sigmetrics2022/"
+                target="_blank"
+                className="txtlink"
+              >
+                ACM SIGMETRICS 2022
+              </a>{" "}
+              (May 2022)
+            </li>
+            <li>
+              Five-day workshop on Cyber Security and Cyber Forensics,{" "}
+              <a
+                href="https://vitap.ac.in/computer-science-engineering/"
+                target="_blank"
+                className="txtlink"
+              >
+                SCOPE
+              </a>{" "}
+              at{" "}
+              <a
+                href="https://vitap.ac.in/"
+                target="_blank"
+                className="txtlink"
+              >
+                VIT-AP University
+              </a>{" "}
+              (June 2021)
             </li>
           </ul>
 
@@ -331,7 +361,14 @@ const CV = () => {
                 FILKOM Brawijaya University
               </a>
               , Indonesia: Leveraging programmable data planes for scalable IoT
-              security. (exchange programme){" "}
+              security. (exchange programme){" "}<a
+                href="https://filkom.ub.ac.id/2022/06/22/laboratorium-jaringan-berbasis-informasi-terima-mahasiswa-research-scholar-dari-iit-hyderabad/"
+                target="_blank"
+                className="txtlink"
+              >
+                <b>[News]</b>
+              </a>
+              
             </li>
             <li>
               Research exchange at{" "}

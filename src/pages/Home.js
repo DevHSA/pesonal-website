@@ -419,7 +419,13 @@ const Home = () => {
                 >
                   FILKOM Brawijaya University
                 </a>
-                , Indonesia!
+                , Indonesia! <a
+                href="https://filkom.ub.ac.id/2022/06/22/laboratorium-jaringan-berbasis-informasi-terima-mahasiswa-research-scholar-dari-iit-hyderabad/"
+                target="_blank"
+                className="txtlink"
+              >
+                <b>[News]</b>
+              </a>
               </td>
             </tr>
             <tr>

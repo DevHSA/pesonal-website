@@ -291,7 +291,7 @@ body {
   color: red;
   font-weight: 500;
   text-decoration: none;
-  animation: opacity 1s ease-in-out infinite;
+  /* animation: opacity 1s ease-in-out infinite; */
   opacity: 1;
 }
 @keyframes opacity {
@@ -313,3 +313,73 @@ body {
   font-weight: 400;
   text-decoration: underline;
 }
+
+.blogheading{
+
+  font-size: x-large;
+  color:#1756a9;
+  text-decoration: none;
+
+}
+
+.blogheading:hover{
+
+  font-size: x-large;
+  color: black;
+  text-decoration: underline;
+
+}
+
+
+.blogdate{
+
+  color: gray;
+}
+.blogdatebig{
+
+  color: gray;
+  font-size: large;
+}
+
+.blogtext{
+  font-size: 15px;
+  line-height: 1.7;
+
+}
+
+.medium{
+  /* background-color: black; */
+  /* color: #fff; */
+  /* border-radius: 10px; */
+  height: 20px;
+  margin-left: 10px;
+  text-decoration: none;
+  transition: 0.2s;
+  color:#1756a9;
+  text-decoration: none;
+}
+
+.medium:hover{
+  background-color: black;
+  color: #fff;
+  /* border-radius: 10px; */
+  height: 20px;
+  filter: blur(0.4px);
+  
+  
+
+}
+.mediumimage{
+
+  width: 20px;
+  margin-left: 10px;
+  transition: 0.2s;
+}
+
+.mediumimage:hover{
+  
+  /* width: 21px; */
+  filter: blur(1px);
+
+}
+
