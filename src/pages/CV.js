@@ -12,7 +12,7 @@ const CV = () => {
           <span className="blinktext">
             (Please click{" "}
             <a
-              href="https://drive.google.com/file/d/12SMpK-vjhxTAi2nEuTAlrA4KHdlUTPQ7/view?usp=sharing"
+              href="https://drive.google.com/file/d/1bn7lB0y7jIUf18272DQFKshx8EX-x9VV/view?usp=sharing"
               target="_blank"
               className="txtlinkflash"
             >
@@ -24,10 +24,18 @@ const CV = () => {
           <br />
           <span className="headingsmall">Top Honours </span>
           <ul>
+              
+            
+            
+          <li>
+              Recieved the top grade "Recommended with Commendation" in the
+              annual PMRF Review 2024 for the second consecutive year.<i> (2024)</i>
+            </li>
+
             <li>
               Recieved the prestegious Indo-US{" "}
               <a
-                href="https://www.usief.org.in/Fulbright-Nehru-Doctoral-Research-Fellowships.aspx"
+                href="https://www.usief.org.in/indian-fulbrighters/"
                 target="_blank"
                 className="txtlink"
               >
@@ -35,6 +43,21 @@ const CV = () => {
               </a>{" "}
               to conduct my thesis in the United States for a period of 9
               months. <i>(2024)</i>
+            </li>
+
+            
+
+            <li>
+              Recieved the top grade "Recommended with Commendation" in the
+              annual PMRF Review 2023 and invited to the{" "}
+              <a
+                href="https://www.pmrf.in/symposium-2024"
+                target="_blank"
+                className="txtlink"
+              >
+                PMRF Annual Symposium
+              </a>
+              . <i>(2023)</i>
             </li>
 
             <li>
@@ -48,19 +71,6 @@ const CV = () => {
                 years.{" "}
               </a>
               <i>(2022)</i>
-            </li>
-
-            <li>
-              Recieved the top grade "Recommended with Commendation" in the
-              annual PMRF Review 2023 and invited to the{" "}
-              <a
-                href="https://www.pmrf.in/symposium-2024"
-                target="_blank"
-                className="txtlink"
-              >
-                PMRF Annual Symposium
-              </a>
-              . <i>(2023)</i>
             </li>
 
             <li>

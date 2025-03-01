@@ -18,7 +18,7 @@ function App() {
           <div className="topnav">
             <Link to="/">Home</Link>
             <Link to="/publications">Publications</Link>
-            <Link to="/CV">CV</Link>
+            <Link to="/CV">CV & Highlights</Link>
             <Link to="/blog">Blog</Link>
 
             <span>
@@ -66,7 +66,7 @@ function App() {
       </div>
 
       <div className="footer">
-        <p>&copy; Copyright 2024 Harish S A. Last updated: March 10th, 2024</p>
+        <p>&copy; Copyright 2024 Harish S A. Last updated: February 27th, 2025</p>
       </div>
     </Router>
   );

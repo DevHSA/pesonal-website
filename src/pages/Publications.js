@@ -1,4 +1,5 @@
 import React from "react";
+import ifip from "../images/2024ifip.jpg";
 import comsnets from "../images/2024comsnets.jpg";
 import apnet from "../images/2023apnet.jpg";
 import noms from "../images/2023noms.jpg";
@@ -25,7 +26,7 @@ const Publications = () => {
           <span className="heading">2024</span>
           <hr />
           <table className="pubtablestyle">
-            <tr>
+          <tr>
               <td className="pubtcolone">
                 <img src={comsnets} alt="COMSNETS 2024" className="imagesizepub" />
               </td>
@@ -53,6 +54,41 @@ const Publications = () => {
                 <br /> <br />
                 <a
                   href="https://ieeexplore.ieee.org/document/10427291"
+                  target="_blank"
+                  className="txtlink"
+                >
+                  <b>[pdf]</b>
+                </a>{" "}
+                <b>[slides]</b> <b>[talk]</b>
+              </td>
+            </tr>
+
+            <tr>
+              <td className="pubtcolone">
+                <img src={ifip} alt="COMSNETS 2024" className="imagesizepub" />
+              </td>
+              <td className="pubtcoltwo">
+                <span className="pubhead">
+                Anamoly Detection in In-Network Fast ReRoute Systems
+                </span>
+                <br />
+                <span className="pubauth">
+                Divya Pathak, <span style={{ textDecoration: "underline" }}>Harish SA</span>, Sree Prathyush Chinta, Dilip Kumar Reddy, Praveen Tammana
+                
+                </span>
+                <br />
+                <span className="publoc">
+                  <a
+                    href="https://networking.ifip.org/2024/"
+                    target="_blank"
+                    className="txtlink"
+                  >
+                    23rd International Federation for Information Processing Networking Conference (IFIP/IEEE Networking 2024), Thessaloniki, Greece
+                  </a>
+                </span>
+                <br /> <br />
+                <a
+                  href="https://doi.org/10.23919/IFIPNetworking62109.2024.10619865"
                   target="_blank"
                   className="txtlink"
                 >

@@ -19,7 +19,7 @@ const Home = () => {
           </a>{" "}
           &
           <a
-            href="https://www.usief.org.in/Fulbright-Nehru-Doctoral-Research-Fellowships.aspx"
+            href="https://www.usief.org.in/fulbright-fellowships/fellowships-for-indian-citizen/fulbright-nehru-doctoral-research-fellowships/"
             target="_blank"
             className="txtlink"
           >
@@ -98,20 +98,21 @@ const Home = () => {
         <div className="inside normal">
           <span className="heading">Updates</span>
           <table className="tablestyle">
-            <tr>
+          
+          <tr>
               <td className="tcolone">
-                <b>Mar 2024</b>
+                <b>August 2024</b>
               </td>
               <td className="tcoltwo">
-                Recieved the final approval for {" "}
+                Pursuing the {" "}
                 <a
-                  href="https://www.usief.org.in/Fulbright-Nehru-Doctoral-Research-Fellowships.aspx"
+                  href="https://www.usief.org.in/indian-fulbrighters/"
                   target="_blank"
                   className="txtlink"
                 >
-                  Fulbright Doctoral Research Fellowship
-                </a>
-                . Excited to join the{" "}
+                  Fulbright Doctoral Research Fellowship (2024-25)
+                </a>{" "}
+                 exchange program at {" "}
                 <a
                   href="https://utns.cs.utexas.edu/"
                   target="_blank"
@@ -126,10 +127,21 @@ const Home = () => {
                   className="txtlink"
                 >
                   University of Texas at Austin
-                </a>{" "}
-                from August 2024 for a period of 9 months.
+                </a>
               </td>
             </tr>
+          
+          <tr>
+              <td className="tcolone">
+                <b>June 2024</b>
+              </td>
+              <td className="tcoltwo">
+                Recieved the top grade "Recommended with Commendation" for the second consecutive time in the
+                annual PMRF Review 2024.
+              </td>
+            </tr>
+            
+            
 
             <tr>
               <td className="tcolone">
