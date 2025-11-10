@@ -29,7 +29,7 @@ const Home = () => {
         </div>
         <div className="inside left">
           <p>
-            I am a 3rd year Ph.D. scholar and Teaching Assistant at the
+            I am a 5th year Ph.D. scholar and Teaching Assistant at the
             Department of Computer Science and Engineering,{" "}
             <a
               href="https://www.iith.ac.in/"
@@ -38,7 +38,7 @@ const Home = () => {
             >
               Indian Institute of Technology Hyderabad
             </a>
-            . I am currently a part of the{" "}
+            . I am currently part of the{" "}
             <a
               href="https://www.netxiith.in/"
               target="_blank"
@@ -55,9 +55,13 @@ const Home = () => {
               Dr. Praveen Tammana
             </a>
             . The broader domains that encompass my research interests include
-            Networks, Systems, and Security. My current research explores the
-            security implications of in-network systems that leverage
-            cutting-edge technologies like{" "}
+            Computer networks, systems, and security with a particular focus on building secure, resilient, and high-performance networked systems. I investigate the
+            security implications of in-network computing and programmable data planes, exploring how cutting-edge technologies like Software-Defined Networking (SDN) and network programmability 
+            can be leveraged to solve challenges in networked systems.
+
+            My long-term vision is to advance the design of secure, intelligent, and fault-tolerant networked infrastructures that can withstand evolving cyber threats and form the backbone of 
+            next-generation communication systems.
+            {/* like{" "}
             <a
               href="https://en.wikipedia.org/wiki/Software-defined_networking"
               target="_blank"
@@ -65,8 +69,10 @@ const Home = () => {
             >
               Software-Defined Networks
             </a>{" "}
+            
+            
             and programmable data planes. My vision is to bolster the resilience
-            of next-generation computer networks against security threats.
+            of next-generation computer networks against security threats. */}
           </p>
           {/* <p>
             The advent of programmable networks has opened up many exciting
@@ -101,7 +107,32 @@ const Home = () => {
           
           <tr>
               <td className="tcolone">
-                <b>August 2024</b>
+                <b>Mar 2025</b>
+              </td>
+              <td className="tcoltwo">
+                Received the {" "}
+                <a
+                  href="https://cse.iith.ac.in/highlights/Achievements-Awards.html"
+                  target="_blank"
+                  className="txtlink"
+                >
+                  Research Excellence Award for doctoral research
+                </a>{" "}
+                 {/* exchange program at {" "}
+                <a
+                  href="https://utns.cs.utexas.edu/"
+                  target="_blank"
+                  className="txtlink"
+                >
+                  UT Networked Systems lab
+                </a>{" "} */}
+                by IIT Hyderabad 
+              </td>
+            </tr>
+
+          <tr>
+              <td className="tcolone">
+                <b>Aug 2024</b>
               </td>
               <td className="tcoltwo">
                 Pursuing the {" "}
@@ -112,15 +143,15 @@ const Home = () => {
                 >
                   Fulbright Doctoral Research Fellowship (2024-25)
                 </a>{" "}
-                 exchange program at {" "}
+                 {/* exchange program at {" "}
                 <a
                   href="https://utns.cs.utexas.edu/"
                   target="_blank"
                   className="txtlink"
                 >
                   UT Networked Systems lab
-                </a>{" "}
-                at{" "}
+                </a>{" "} */}
+                at the {" "}
                 <a
                   href="https://www.utexas.edu/"
                   target="_blank"
@@ -136,7 +167,7 @@ const Home = () => {
                 <b>June 2024</b>
               </td>
               <td className="tcoltwo">
-                Recieved the top grade "Recommended with Commendation" for the second consecutive time in the
+                Received the top grade "Recommended with Commendation" for the second consecutive time in the
                 annual PMRF Review 2024.
               </td>
             </tr>
@@ -228,7 +259,7 @@ const Home = () => {
                 <b>June 2023</b>
               </td>
               <td className="tcoltwo">
-                Recieved the top grade "Recommended with Commendation" in the
+                Received the top grade "Recommended with Commendation" in the
                 annual PMRF Review 2023.
               </td>
             </tr>
@@ -319,7 +350,7 @@ const Home = () => {
                 <b>Aug 2022</b>
               </td>
               <td className="tcoltwo">
-                Recieved the{" "}
+                Received the{" "}
                 <a
                   href="https://www.pmrf.in/"
                   target="_blank"

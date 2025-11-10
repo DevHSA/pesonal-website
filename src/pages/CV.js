@@ -12,7 +12,7 @@ const CV = () => {
           <span className="blinktext">
             (Please click{" "}
             <a
-              href="https://drive.google.com/file/d/1bn7lB0y7jIUf18272DQFKshx8EX-x9VV/view?usp=sharing"
+              href="https://drive.google.com/file/d/1X2azUmv5CTLE2tyRfLsxTq_M-jSSzH_m/view?usp=sharing"
               target="_blank"
               className="txtlinkflash"
             >
@@ -25,15 +25,26 @@ const CV = () => {
           <span className="headingsmall">Top Honours </span>
           <ul>
               
+          <li>
+          Received the {" "}
+                <a
+                  href="https://cse.iith.ac.in/highlights/Achievements-Awards.html"
+                  target="_blank"
+                  className="txtlink"
+                >
+                  Research Excellence Award for doctoral research
+                </a>{" "}
+                by IIT Hyderabad<i> (2025)</i>
+            </li>
             
             
           <li>
-              Recieved the top grade "Recommended with Commendation" in the
+              Received the top grade "Recommended with Commendation" in the
               annual PMRF Review 2024 for the second consecutive year.<i> (2024)</i>
             </li>
 
             <li>
-              Recieved the prestegious Indo-US{" "}
+              Received the prestegious Indo-US{" "}
               <a
                 href="https://www.usief.org.in/indian-fulbrighters/"
                 target="_blank"
@@ -48,7 +59,7 @@ const CV = () => {
             
 
             <li>
-              Recieved the top grade "Recommended with Commendation" in the
+              Received the top grade "Recommended with Commendation" in the
               annual PMRF Review 2023 and invited to the{" "}
               <a
                 href="https://www.pmrf.in/symposium-2024"
@@ -61,7 +72,7 @@ const CV = () => {
             </li>
 
             <li>
-              Recieved the prestegious{" "}
+              Received the prestegious{" "}
               <a
                 href="https://www.pmrf.in/"
                 target="_blank"

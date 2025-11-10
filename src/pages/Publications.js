@@ -69,7 +69,7 @@ const Publications = () => {
               </td>
               <td className="pubtcoltwo">
                 <span className="pubhead">
-                Anamoly Detection in In-Network Fast ReRoute Systems
+                Anomaly Detection in In-Network Fast ReRoute Systems
                 </span>
                 <br />
                 <span className="pubauth">
