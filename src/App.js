@@ -66,7 +66,7 @@ function App() {
       </div>
 
       <div className="footer">
-        <p>&copy; Copyright 2024 Harish S A. Last updated: September 14th, 2025</p>
+        <p>&copy; Copyright 2024 Harish S A. Last updated: May, 2026</p>
       </div>
     </Router>
   );
