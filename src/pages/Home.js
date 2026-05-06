@@ -55,12 +55,16 @@ const Home = () => {
               Dr. Praveen Tammana
             </a>
             . The broader domains that encompass my research interests include
-            Computer networks, systems, and security with a particular focus on building secure, resilient, and high-performance networked systems. I investigate the
-            security implications of in-network computing and programmable data planes, exploring how cutting-edge technologies like Software-Defined Networking (SDN) and network programmability 
-            can be leveraged to solve challenges in networked systems.
-
-            My long-term vision is to advance the design of secure, intelligent, and fault-tolerant networked infrastructures that can withstand evolving cyber threats and form the backbone of 
-            next-generation communication systems.
+            Computer networks, Systems, and Security with a particular focus on
+            building secure, resilient, and high-performance networked systems.
+            I investigate the security implications of in-network computing and
+            programmable data planes, exploring how cutting-edge technologies
+            like Software-Defined Networking (SDN) and network programmability
+            can be leveraged to solve challenges in networked systems. In
+            parallel, I investigate fault tolerance in modern model-serving
+            environments, developing lightweight, inference-aware frameworks for
+            large-scale GPU clusters to detect silent performance degradations
+            (stragglers) in LLM serving pipelines.
             {/* like{" "}
             <a
               href="https://en.wikipedia.org/wiki/Software-defined_networking"
@@ -104,13 +108,38 @@ const Home = () => {
         <div className="inside normal">
           <span className="heading">Updates</span>
           <table className="tablestyle">
-          
-          <tr>
+            
+            <tr>
+              <td className="tcolone">
+                <b>April 2026</b>
+              </td>
+              <td className="tcoltwo">
+                Our work{" "}"
+                <a
+                  href="#"
+                  // target="_blank"
+                  className="txtlink"
+                >
+                  ListGuard: Mitigating Pollution Attacks on In-Network Invertible Bloom Lookup Tables
+                </a>"{" "} 
+                accepted at {" "}
+                <a
+                  href="https://networking.ifip.org/2026/"
+                  target="_blank"
+                  className="txtlink"
+                >
+                  IFIP Networking 2026
+                </a>, Lugano, Switzerland.
+              </td>
+            </tr>
+            
+            
+            <tr>
               <td className="tcolone">
                 <b>Mar 2025</b>
               </td>
               <td className="tcoltwo">
-                Received the {" "}
+                Received the{" "}
                 <a
                   href="https://cse.iith.ac.in/highlights/Achievements-Awards.html"
                   target="_blank"
@@ -118,24 +147,16 @@ const Home = () => {
                 >
                   Research Excellence Award for doctoral research
                 </a>{" "}
-                 {/* exchange program at {" "}
-                <a
-                  href="https://utns.cs.utexas.edu/"
-                  target="_blank"
-                  className="txtlink"
-                >
-                  UT Networked Systems lab
-                </a>{" "} */}
-                by IIT Hyderabad 
+                by IIT Hyderabad
               </td>
             </tr>
 
-          <tr>
+            <tr>
               <td className="tcolone">
                 <b>Aug 2024</b>
               </td>
               <td className="tcoltwo">
-                Pursuing the {" "}
+                Pursuing the{" "}
                 <a
                   href="https://www.usief.org.in/indian-fulbrighters/"
                   target="_blank"
@@ -143,7 +164,7 @@ const Home = () => {
                 >
                   Fulbright Doctoral Research Fellowship (2024-25)
                 </a>{" "}
-                 {/* exchange program at {" "}
+                {/* exchange program at {" "}
                 <a
                   href="https://utns.cs.utexas.edu/"
                   target="_blank"
@@ -151,7 +172,7 @@ const Home = () => {
                 >
                   UT Networked Systems lab
                 </a>{" "} */}
-                at the {" "}
+                at the{" "}
                 <a
                   href="https://www.utexas.edu/"
                   target="_blank"
@@ -161,18 +182,16 @@ const Home = () => {
                 </a>
               </td>
             </tr>
-          
-          <tr>
+
+            <tr>
               <td className="tcolone">
                 <b>June 2024</b>
               </td>
               <td className="tcoltwo">
-                Received the top grade "Recommended with Commendation" for the second consecutive time in the
-                annual PMRF Review 2024.
+                Received the top grade "Recommended with Commendation" for the
+                second consecutive time in the annual PMRF Review 2024.
               </td>
             </tr>
-            
-            
 
             <tr>
               <td className="tcolone">
@@ -204,8 +223,8 @@ const Home = () => {
                   className="txtlink"
                 >
                   Fulbright Doctoral Research Fellowship
-                </a>!
-                
+                </a>
+                !
               </td>
             </tr>
             <tr>
@@ -324,7 +343,8 @@ const Home = () => {
                   className="txtlink"
                 >
                   ComSoc student travel grant
-                </a>.
+                </a>
+                .
               </td>
             </tr>
             <tr>
@@ -357,7 +377,8 @@ const Home = () => {
                   className="txtlink"
                 >
                   Prime Minister's Research Fellowship (PMRF){" "}
-                </a>!
+                </a>
+                !
               </td>
             </tr>
             <tr>
@@ -462,13 +483,14 @@ const Home = () => {
                 >
                   FILKOM Brawijaya University
                 </a>
-                , Indonesia! <a
-                href="https://filkom.ub.ac.id/2022/06/22/laboratorium-jaringan-berbasis-informasi-terima-mahasiswa-research-scholar-dari-iit-hyderabad/"
-                target="_blank"
-                className="txtlink"
-              >
-                <b>[News]</b>
-              </a>
+                , Indonesia!{" "}
+                <a
+                  href="https://filkom.ub.ac.id/2022/06/22/laboratorium-jaringan-berbasis-informasi-terima-mahasiswa-research-scholar-dari-iit-hyderabad/"
+                  target="_blank"
+                  className="txtlink"
+                >
+                  <b>[News]</b>
+                </a>
               </td>
             </tr>
             <tr>
@@ -476,17 +498,23 @@ const Home = () => {
                 <b>June 2022</b>
               </td>
               <td className="tcoltwo">
-                Presented our work in progress "P4 Programmable Data Plane based MUD
-                Enforcement for IoT Security" at the Graduate Forum of <a
+                Presented our work in progress "P4 Programmable Data Plane based
+                MUD Enforcement for IoT Security" at the Graduate Forum of{" "}
+                <a
                   href="https://perfna2022.cse.iith.ac.in/"
                   target="_blank"
                   className="txtlink"
-                >PerfNA Workshop
-                2022</a> at <a
+                >
+                  PerfNA Workshop 2022
+                </a>{" "}
+                at{" "}
+                <a
                   href="https://www.sigmetrics.org/sigmetrics2022/"
                   target="_blank"
                   className="txtlink"
-                >ACM SIGMETRICS 2022</a> 
+                >
+                  ACM SIGMETRICS 2022
+                </a>
               </td>
             </tr>
             <tr>
@@ -494,16 +522,23 @@ const Home = () => {
                 <b>May 2022</b>
               </td>
               <td className="tcoltwo">
-                Won the <a
+                Won the{" "}
+                <a
                   href="https://www.sigmetrics.org/sigmetrics2022/student_grants.html"
                   target="_blank"
                   className="txtlink"
-                >Student Grant</a> of <a
-                href="https://www.sigmetrics.org/sigmetrics2022/"
-                target="_blank"
-                className="txtlink"
-              >ACM SIGMETRICS 2022</a>!
-                
+                >
+                  Student Grant
+                </a>{" "}
+                of{" "}
+                <a
+                  href="https://www.sigmetrics.org/sigmetrics2022/"
+                  target="_blank"
+                  className="txtlink"
+                >
+                  ACM SIGMETRICS 2022
+                </a>
+                !
               </td>
             </tr>
             <tr>
@@ -511,11 +546,15 @@ const Home = () => {
                 <b>Dec 2021</b>
               </td>
               <td className="tcoltwo">
-                Won the <a
-                href="https://www.comsnets.org/archive/2022/travel_grants.html"
-                target="_blank"
-                className="txtlink"
-              >COMSNETS 2022 Travel Grant</a> award!
+                Won the{" "}
+                <a
+                  href="https://www.comsnets.org/archive/2022/travel_grants.html"
+                  target="_blank"
+                  className="txtlink"
+                >
+                  COMSNETS 2022 Travel Grant
+                </a>{" "}
+                award!
               </td>
             </tr>
           </table>

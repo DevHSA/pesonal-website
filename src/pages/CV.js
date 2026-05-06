@@ -12,7 +12,7 @@ const CV = () => {
           <span className="blinktext">
             (Please click{" "}
             <a
-              href="https://drive.google.com/file/d/1X2azUmv5CTLE2tyRfLsxTq_M-jSSzH_m/view?usp=sharing"
+              href="https://drive.google.com/drive/folders/1cHqafxXTy9vdZmjJOiMp4qPAOHnsvZOW?usp=sharing"
               target="_blank"
               className="txtlinkflash"
             >
